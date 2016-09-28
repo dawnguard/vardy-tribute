@@ -1,0 +1,100 @@
+html {
+  font-size: 10px;
+}
+
+body {
+  font-family: 'Georgia', sans-serif;
+  font-size: 1.4rem;
+}
+
+h1,
+h2,
+figcaption {
+  text-align: center;
+}
+
+figure {
+  margin-bottom: 2rem;
+}
+
+.img-thumbnail {
+  padding: 0;
+}
+
+figcaption {
+  color: #333;
+  font-size: 1.6rem;
+  margin-top: 0.5rem;
+}
+
+ul {
+  margin-bottom: 2em;
+  
+  color: rgba(0, 0, 0, .8);
+  font-size: 1.92rem;
+  line-height: 1.45;
+  
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  -moz-font-feature-settings: "liga" on;
+}
+
+li {
+  margin-bottom: 2.6rem;
+}
+
+.jumbotron p {
+  font-size: 2.1rem;
+}
+
+blockquote {
+  quotes: "\201C""\201D""\2018""\2019";
+}
+
+blockquote p:before {
+  color: #ccc;
+  content: open-quote;
+  font-size: 4em;
+  line-height: 0.1em;
+  vertical-align: -0.4em;
+  margin-right: 1rem;
+}
+
+blockquote p {
+  display: inline;
+}
+
+blockquote footer {
+  margin-top: 0.5rem;
+}
+
+.call-to-wiki p {
+  font-size: 2.4rem;
+}
+
+@media only screen and (max-device-width: 480px), (max-width: 480px) {
+  ul {
+    list-style: none outside none;
+    background: none repeat scroll 0 0 transparent;
+    border: 0 none;
+    margin: 0;
+    outline: 0 none;
+    padding: 0;
+    vertical-align: baseline;
+    font-size: 1.6rem;
+  }
+  
+  .call-to-wiki p {
+    font-size: 1.8rem;
+  }
+}
+
+@media only screen and (max-device-width: 480px) {
+  ul {
+    font-size: 1.4rem;
+  }
+  
+  .call-to-wiki p {
+    font-size: 1.5rem;
+  }
+}
